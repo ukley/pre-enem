@@ -490,7 +490,7 @@ body>.navbar-collapse .nav li.separator+.nav-item {
 body>.navbar-collapse .nav .caret {
     margin-top: 13px;
     position: absolute;
-    right: 30px;
+    right: 5px;
 }
 
 .sidebar .nav .active-pro,
