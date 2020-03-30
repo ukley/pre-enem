@@ -23,7 +23,6 @@
 
 <body>
     <div class="wrapper">
-        <div id="app">
         <div class="sidebar" data-image="../assets/img/sidebar-5.jpg">
        
 
@@ -36,7 +35,6 @@
                         Colégio Classe A
                     </a>
                 </div>
-
                 
             
                 <ul class="nav" v-for="r in categorias" :key="r.id">             
@@ -49,6 +47,7 @@
                                 <b class="caret"></b>
                             </p>
                         </a>
+
                         <div class="collapse " id="formsExamples">
                             <ul class="nav">
                                 <li class="nav-item ">
@@ -82,9 +81,6 @@
                                         <span class="sidebar-normal">{{r[7].name}}</span>
                                     </a>
                                 </li>
-
-
-
                             </ul>
                         </div>
                     </li>
@@ -248,6 +244,8 @@
                     </div>
                 </div>
             </div>
+
+            
             <footer class="footer">
                 <div class="container-fluid">
                     <nav>
