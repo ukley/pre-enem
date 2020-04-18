@@ -1,4 +1,3 @@
-<!--   Core JS Files   -->
 
 <script src="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/js/core/popper.min.js" type="text/javascript"></script>

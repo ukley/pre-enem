@@ -1,19 +1,12 @@
-
-<!DOCTYPE html>
-
-
-
 <?php get_header();?>
-
 
 <body>
     <div id="app">
             <div class="wrapper">
         
-                    <div class="sidebar" data-image="assets/img/sidebar-5.jpg">
-
-                        <div class="sidebar-wrapper" style="background:#094257">
-
+                    <div class="sidebar" data-image="assets/img/sidebar-5.jpg" >
+                           
+                    <div class="sidebar-wrapper" style="background:#094257">
                                     <div class="logo">
                                         <a href="#" class="simple-text logo-mini">
                                             CA
@@ -21,158 +14,94 @@
                                         <a href="#" class="simple-text logo-normal">
                                             Colégio Classe A
                                         </a>
-                                    </div>             
-                                                                
+                                    </div>                           
+                                               
+                                    
                                 
-                                <ul class="nav" v-for="r in categorias" :key="r.id">   
-
-                                      <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(10)>
-                                                        <i class="nc-icon nc-palette"></i>
-                                                <p>ED INFANTIL PRÉ I</p>
+                                <ul class="nav" v-for="r in categorias" :key="r.id">                                       
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(29)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Adriana</p>
                                             </a>
                                         </li>
                     
                     
                                         <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(14)>
-                                                        <i class="nc-icon nc-puzzle-10"></i>
-                                                <p>ED INFANTIL PRÉ II</p>
+                                                <a class="nav-link"  v-on:click.prevent=post(38)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Aline</p>
                                             </a>
-                                        </li>            
-                                     
-                                    <div id="menu-fundI">    
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="collapse" href="#formsExamples" >
-                                                <i class="nc-icon nc-app"></i>
-                                                <p>
-                                                    ENS FUNDAMENTAL I
-                                                    <b class="caret"></b>
-                                                </p>
-                                            </a>
-                    
-                    
-                                            <div class="collapse " id="formsExamples" id="foo">
-                                                <ul class="nav" >
-                                                    <li class="nav-item ">
-                                                        <a class="nav-link" v-on:click.prevent=post(3)>                                                            
-                                                            <span class="sidebar-normal">1° Ano</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item ">
-                                                        <a class="nav-link" v-on:click.prevent=post(4)>                                                            
-                                                            <span class="sidebar-normal">2° Ano</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item ">
-                                                          <a class="nav-link" v-on:click.prevent=post(5)>                                                            
-                                                            <span class="sidebar-normal">3° Ano</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item ">
-                                                        <a class="nav-link" v-on:click.prevent=post(6)>
-                                                            
-                                                            <span class="sidebar-normal">4° Ano </span>
-                                                        </a>
-                                                    </li>
-                    
-                                                    <li class="nav-item ">
-                                                        <a class="nav-link"  v-on:click.prevent=post(8)>
-                                                            
-                                                            <span class="sidebar-normal">5° Ano </span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </div>
+                                        </li>   
                                         
-                    
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="collapse" href="#tablesExamples">
-                                                <i class="nc-icon nc-sun-fog-29"></i>
-                                                <p>
-                                                    ENS FUNDAMENTAL II &nbsp;&nbsp;&nbsp;
-                                                    <b class="caret"></b>
-                                                </p>
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(13)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Cláudio</p>
                                             </a>
-                                            <div class="collapse " id="tablesExamples">
-                                                <ul class="nav">
-                    
-                    
-                                                     <li class="nav-item ">
-                                                        <a class="nav-link"  v-on:click.prevent=post(9)>
-                                                            
-                                                            <span class="sidebar-normal">6° Ano</span>
-                                                        </a>
-                                                    </li>
-                    
-                    
-                                                    <li class="nav-item ">
-                                                        <a class="nav-link"  v-on:click.prevent=post(11)>
-                                                            
-                                                            <span class="sidebar-normal">7° Ano</span>
-                                                        </a>
-                                                    </li>     
-                                                    
-                                                    <li class="nav-item ">
-                                                            <a class="nav-link"  v-on:click.prevent=post(12)>
-                                                                
-                                                                <span class="sidebar-normal">8° ANO</span>
-                                                            </a>
-                                                    </li> 
-                    
-                                                    <li class="nav-item ">
-                                                            <a class="nav-link"  v-on:click.prevent=post(13)>
-                                                                
-                                                                <span class="sidebar-normal">9° ANO</span>
-                                                            </a>
-                                                    </li> 
-                    
-                                                </ul>
-                                            </div>
-                                        </li>
-                    
-                    
-                                        <li class="nav-item">
-                                            <a class="nav-link" data-toggle="collapse" href="#mapsExamples">
-                                                    <i class="nc-icon nc-chart-bar-32"></i>
-                                                    <p>
-                                                   ENSINO MÉDIO
-                                                    <b class="caret"></b>
-                                                </p>
+                                        </li>   
+                                        
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(15)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Flávio</p>
                                             </a>
-                                            <div class="collapse " id="mapsExamples">
-                                                <ul class="nav">
-                    
-                                                        <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(15)>
-                                                                    
-                                                                    <span class="sidebar-normal">1° Série</span>
-                                                                </a>
-                                                        </li>
-                    
-                    
-                    
-                                                        <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(16)>
-                                                                    
-                                                                    <span class="sidebar-normal">2° Série</span>
-                                                                </a>
-                                                        </li>
-                    
-                    
-                                                     <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(17)>
-                                                                    
-                                                                    <span class="sidebar-normal">3° Série</span>
-                                                                </a>
-                                                        </li>
-                                                </ul>
-                                            </div>
+                                        </li> 
+                                        
+                                          
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(17)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Hermano</p>
+                                            </a>
+                                        </li>   
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(19)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Hiago</p>
+                                            </a>
+                                        </li>   
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(24)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Kléber</p>
+                                            </a>
+                                        </li> 
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(11)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Ney</p>
+                                            </a>
                                         </li>
-                    
-                    
+
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(26)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Rodrigues</p>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(40)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Verônica</p>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(42)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professsor Wendel</p>
+                                            </a>
+                                        </li>
+                                             
+                                                                                                     
+                                                                                                             
+                                       
                                                      
                                     </ul>
                                 </div>
@@ -184,20 +113,16 @@
                                 <!-- Navbar -->
                                 <nav class="navbar navbar-expand-lg " color-on-scroll="500" >
                                     <div class="container-fluid">
-                                        <a class="navbar-brand" href="#pablo"> Unidade Centro</a>
-
+                                        <a class="navbar-brand" href="#pablo"> Materiais - Pré-Enem </a>
 
                                         <button  type="button"  class="navbar-toggler navbar-toggler-right ml-auto hidden-sm-up "
                                          data-target=".navbar-collapse" data-toggle="collapse" aria-controls="navbar-collapse"
-                                          aria-expanded="false" aria-label="Alteracao Navegacao ">                                          
-
+                                          aria-expanded="false" aria-label="Alteracao Navegacao ">
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
-
+                                            <button class="btn btn-primary btn-sm">Opções</button>
                                         </button>   
-                                        <button type="button" class="btn btn-primary btn-sm">Opções </button>
-
 
                                     </div>
                                 </nav>
@@ -209,11 +134,11 @@
                                     <div class="container-fluid">          
                                     <div class="card" v-for="p in posts" :key="p.id">
                                         <div class="card-header">
-                                            <h4 class="card-title">{{p[0].title.rendered}}</h4>
+                                            <h4 class="card-title">{{p.title.rendered}}</h4>
                                             <p class="card-category">Acesse o material e faça o Download</p>
                                         </div>
                                         <div class="card-body">
-                                            <p v-html="p[0].content.rendered"></p>
+                                            <p v-html="p.content.rendered"></p>
                                         </div>
                                     </div>
                                         <div class="row">
@@ -255,7 +180,7 @@
 
                     methods:{
                         start(){
-                            fetch('https://colegioclassea.com.br/materiais/wp-json/wp/v2/categories')
+                            fetch('https://colegioclassea.com.br/pre-enem/wp-json/wp/v2/categories')
                                 .then((r)=>{
                                     r.json().then((cat)=>{
                                         this.categorias.push(cat)                                                    
@@ -276,9 +201,8 @@
                                
                                if(this.posts.length > 0){
                                  this.posts.pop();
-
                                }
-                                fetch('https://colegioclassea.com.br/materiais-centro/wp-json/wp/v2/posts?categories='+id)
+                               fetch('https://colegioclassea.com.br/pre-enem/wp-json/wp/v2/posts/'+id)
                                     .then((r)=>{
                                         r.json().then((v)=>{
                                                     this.posts.push(v)                                                      
@@ -295,6 +219,6 @@
             </script> 
 
 </body>
+<!--   Core JS Files   -->
 
-  <?php get_footer();?>
-
+<?php get_footer();?>

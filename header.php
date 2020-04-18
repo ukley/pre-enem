@@ -11,11 +11,12 @@
     <title>Colégio Classe A - Materiais </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/bootstrap.min.css" rel="stylesheet" />
-   <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+   <link href="https://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/css/light-bootstrap-dashboard.css?v=2.0.1" rel="stylesheet" />
    <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/demo.css" rel="stylesheet" />
   <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/style.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+
     <script src="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/js/vue.js"></script>
 
 </head>
