@@ -40,6 +40,21 @@
                                                 <p>Professor Cláudio</p>
                                             </a>
                                         </li>   
+
+                                           <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(50)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Edson</p>
+                                            </a>
+                                        </li>   
+
+                                            <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(52)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Giovani</p>
+                                            </a>
+                                        </li>
+                                        
                                         
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(15)>
@@ -82,6 +97,20 @@
                                                 <a class="nav-link"  v-on:click.prevent=post(26)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
                                                 <p>Professor Rodrigues</p>
+                                            </a>
+                                        </li>
+
+                                          <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(54)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Rochester</p>
+                                            </a>
+                                        </li>
+
+                                          <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(57)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Tadeu</p>
                                             </a>
                                         </li>
 
