@@ -48,6 +48,15 @@
                                             </a>
                                         </li>   
 
+                                          <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(15)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Flávio</p>
+                                            </a>
+                                        </li> 
+
+
+
                                             <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(52)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
@@ -56,12 +65,7 @@
                                         </li>
                                         
                                         
-                                        <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(15)>
-                                                        <i class=" nc-icon nc-cloud-download-93"></i>
-                                                <p>Professor Flávio</p>
-                                            </a>
-                                        </li> 
+                                      
                                         
                                           
                                         <li class="nav-item ">
