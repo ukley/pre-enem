@@ -89,10 +89,24 @@
                                             </a>
                                         </li> 
 
+                                             <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(87)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Kléber - História</p>
+                                            </a>
+                                        </li> 
+
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(11)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
                                                 <p>Professor Ney</p>
+                                            </a>
+                                        </li>
+
+                                         <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(86)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Raquel</p>
                                             </a>
                                         </li>
 
@@ -109,7 +123,7 @@
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
                                                 <p>Professor Rochester</p>
                                             </a>
-                                        </li>
+                                          </li>
 
                                           <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(57)>
