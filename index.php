@@ -110,6 +110,20 @@
                                             </a>
                                         </li>
 
+                                           <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(103)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Roberto</p>
+                                            </a>
+                                          </li>
+
+                                           <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(54)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Rochester</p>
+                                            </a>
+                                          </li>
+
 
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(26)>
@@ -118,12 +132,15 @@
                                             </a>
                                         </li>
 
-                                          <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(54)>
+                                       
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(95)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
-                                                <p>Professor Rochester</p>
+                                                <p>Professora Socorro</p>
                                             </a>
                                           </li>
+
 
                                           <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(57)>
