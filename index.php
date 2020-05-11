@@ -156,6 +156,14 @@
                                             </a>
                                         </li>
 
+
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(127)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Vitória</p>
+                                            </a>
+                                        </li>
+
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(42)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
