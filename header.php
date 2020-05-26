@@ -19,4 +19,15 @@
 
     <script src="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/js/vue.js"></script>
 
+    <style type="text/css">
+    
+    
+
+    .card p{
+      color:#fff;
+      margin-top:10px;
+      margin-left:15px;
+    }
+</style>
+
 </head>

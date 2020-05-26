@@ -132,6 +132,13 @@
                                             </a>
                                         </li>
 
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(191)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Rogério</p>
+                                            </a>
+                                        </li>
+
                                        
 
                                              <li class="nav-item ">
@@ -193,7 +200,6 @@
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
-                                            <button class="btn btn-primary btn-sm">Opções</button>
                                         </button>   
 
                                     </div>
@@ -204,20 +210,16 @@
                                 <!-- End Navbar -->
                                 <div class="content">
                                     <div class="container-fluid">          
-                                    <div class="card" v-for="p in posts" :key="p.id">
-                                        <div class="card-header">
-                                            <h4 class="card-title">{{p.title.rendered}}</h4>
-                                            <p class="card-category">Acesse o material e faça o Download</p>
+
+                                        <div class="card" v-for="p in posts" :key="p.id">
+                                            <div class="card-header">
+                                                <h4 class="card-title">{{p.title.rendered}}</h4>
+                                                <p class="card-category">Acesse o material e faça o Download</p>
+                                            </div>
+                                                <p v-html="p.content.rendered"></p>
                                         </div>
-                                        <div class="card-body">
-                                            <p v-html="p.content.rendered"></p>
-                                        </div>
-                                    </div>
-                                        <div class="row">
-                                           
-                                            
-                                        </div>
-                                    </div>
+                                  
+                                   
                                 </div>
                             </div>
                                 
