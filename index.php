@@ -1,5 +1,11 @@
 <?php get_header();?>
 
+<script type="text/javascript">
+$$('.nav a').click(function () {
+    $('.navbar-collapse').collapse('hide');
+});
+</script>
+
 <body>
     <div id="app">
             <div class="wrapper">
@@ -19,7 +25,7 @@
                                     
                                 
                                 <ul class="nav" v-for="r in categorias" :key="r.id">                                       
-                                        <li class="nav-item ">
+                                        <li class="nav-item " data-toggle="collapse" data-target=".nav-collapse.show">
                                                 <a class="nav-link"  v-on:click.prevent=post(29)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
                                                 <p>Professora Adriana</p>
@@ -81,6 +87,13 @@
                                                 <p>Professor Hiago</p>
                                             </a>
                                         </li>   
+
+                                          <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(270)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professora Laís</p>
+                                            </a>
+                                        </li>  
 
                                         <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(24)>
@@ -194,13 +207,13 @@
                                     <div class="container-fluid">
                                         <a class="navbar-brand" href="#pablo"> Materiais - Pré-Enem </a>
 
-                                        <button  type="button"  class="navbar-toggler navbar-toggler-right ml-auto hidden-sm-up "
-                                         data-target=".navbar-collapse" data-toggle="collapse" aria-controls="navbar-collapse"
-                                          aria-expanded="false" aria-label="Alteracao Navegacao ">
-                                            <span class="navbar-toggler-bar burger-lines"></span>
-                                            <span class="navbar-toggler-bar burger-lines"></span>
-                                            <span class="navbar-toggler-bar burger-lines"></span>
-                                        </button>   
+                    <button type="button"  class="navbar-toggler">
+
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+
+                    </button>   
 
                                     </div>
                                 </nav>
@@ -209,16 +222,15 @@
 
                                 <!-- End Navbar -->
                                 <div class="content">
-                                    <div class="container-fluid">          
+                                    <div class="container">         
 
-                                        <div class="card" v-for="p in posts" :key="p.id">
+                                        <div class="card" v-for="p in posts" :key="p.id" >
                                             <div class="card-header">
                                                 <h4 class="card-title">{{p.title.rendered}}</h4>
                                                 <p class="card-category">Acesse o material e faça o Download</p>
                                             </div>
                                                 <p v-html="p.content.rendered"></p>
                                         </div>
-                                  
                                    
                                 </div>
                             </div>

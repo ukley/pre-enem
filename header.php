@@ -16,6 +16,7 @@
    <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/demo.css" rel="stylesheet" />
   <link href="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/css/style.css" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://colegioclassea.com.br/wp-content/themes/materiais-centro/assets/js/vue.js"></script>
 
