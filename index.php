@@ -88,6 +88,13 @@ $$('.nav a').click(function () {
                                             </a>
                                         </li>   
 
+                                         <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(509)>
+                                                        <i class=" nc-icon nc-cloud-download-93"></i>
+                                                <p>Professor Humberto</p>
+                                            </a>
+                                        </li>   
+
                                           <li class="nav-item ">
                                                 <a class="nav-link"  v-on:click.prevent=post(270)>
                                                         <i class=" nc-icon nc-cloud-download-93"></i>
